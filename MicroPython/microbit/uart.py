@@ -1,4 +1,4 @@
-#UART
+# UART
 
 """ The uart module lets you talk to a device connected to your board 
 using a serial interface. 
@@ -10,9 +10,10 @@ Warning
     arguments). This means that calling uart.init(115200) is enough to restore the Python 
     console."""
 
-#Functions
+# Functions
+
 
 def init(baudrate=9600, bits=8, parity=None, stop=1, *, tx=None, rx=None):
-    """ Initialize serial communication with the specified parameters on the specified 
-    tx and rx pins. Note that for correct communication, the parameters have to be 
-    the same on both communicating devices. """
+    """Initialize serial communication with the specified parameters on the specified
+    tx and rx pins. Note that for correct communication, the parameters have to be
+    the same on both communicating devices."""
